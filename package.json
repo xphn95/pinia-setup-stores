@@ -1,0 +1,36 @@
+{
+  "name": "pinia-setup-stores",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host --force",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "pinia": "^2.0.22",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.23",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@unocss/reset": "^0.45.26",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-define-config": "^1.7.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jsonc": "^2.4.0",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-vue": "^9.5.1",
+    "typescript": "*",
+    "unocss": "^0.45.26",
+    "unplugin-auto-import": "^0.11.2",
+    "unplugin-vue-components": "^0.22.7",
+    "vite": "^3.1.0",
+    "vue-tsc": "^0.40.4"
+  }
+}
